@@ -1,0 +1,16 @@
+/* navebar */
+button.btn.btn-danger {
+	border: none;
+}
+
+button.btn.btn-danger.dropdown-toggle {
+	border: none;
+}
+
+div.dropdown-menu.show {
+	transform: translate3d(-50px, 38px, 0px)
+}
+
+a.dropdown-item:focus {
+	background-color: #dc3545;
+}

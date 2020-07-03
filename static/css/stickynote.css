@@ -1,0 +1,73 @@
+.ctn {
+    position: relative;
+    background: #50a3a2;
+    background: linear-gradient(to bottom right, #ffffff 0%, #fababa 20%, #c17cfa 60%, #00ccff 100%);
+    width: 100%;
+    height: 84.6vh;
+    overflow: auto;
+    z-index: 10;
+}
+
+.browse-notes {
+    width: 20%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.browse-notes p {
+    position: relative;
+    top: 1%;
+    left: 35.5%;
+}
+
+.add-note {
+    position: relative;
+    left: 35%;
+    width: 25%;
+}
+
+.add-note:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-note:active {
+    width: 24%;
+    height: auto;
+}
+
+#ctn-notes {
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0.4%;
+    width: 79.5%;
+    height: 96.5%;
+}
+
+.ctn-colorpicker {
+    position: absolute;
+    top: 200px;
+    z-index: 20;
+}
+
+footer {
+    position: relative;
+    padding: 10px 0px 10px 20px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+footer div a {
+    color: #51b8fd;
+}
+
+footer div a:hover {
+    color: #92d3ff;
+}
+
+footer div a:focus {
+    color: #92d3ff;
+}

@@ -1,0 +1,80 @@
+/*Upload File*/
+.col-md-6{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.btn-file{
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 105%x;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+
+#img-wrapper{
+    display: inline-block;
+    position: absolute;
+    z-index: -5;
+    float: right;
+    top: 24%;
+    right: 4%;
+    display: none;
+}
+
+#screen{
+    float: left;
+    width: 50%;
+    height: 90%;
+    background-color: rgba(200,100,200,0.2);
+}
+
+#bound-area{
+    position: absolute;
+    overflow: hidden;
+    top: 15%;
+    left: 13%;
+    width: 235px;
+    height: 460px;
+    border-style: dotted;
+    border-color: white;
+    border-width: 5px;
+}
+
+#tips{
+    position: absolute;
+    top: 45%;
+    right: 26.5%;
+    overflow: auto;
+    width: 18%;
+    height: 42%;
+    background-color: rgba(255,255,255,0.3);
+    padding: 20px;
+    color: black;
+    text-align: left;
+}
+
+.addText{
+    position: absolute;
+    top: 34%;
+    right: 15%;
+    width: 30%;
+    height: 25%;
+    color: black;
+    font-size: 2em;
+    resize: none;
+    border-radius: 4px;
+}
